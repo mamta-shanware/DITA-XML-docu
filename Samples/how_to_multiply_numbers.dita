@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_multiply_numbers">
+    <title>How to multiply numbers</title>
+    <shortdesc>Here you will find instructions about using the Multiplication feature of the JPS
+        Calculator.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_c4m_rfh_vfc">To successfully multiply numbers, you must know what is
+            multiplication or product of numbers.</prereq>
+        <steps>
+            <step>
+                <cmd>Enter the first number.</cmd>
+            </step>
+            <step>
+                <cmd>Press the multiply (x) button.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the second number.</cmd>
+            </step>
+            <step>
+                <cmd>Press the equal (=) button.</cmd>
+            </step>
+        </steps>
+        <result id="result_zx5_dgh_vfc">
+            <p>The result from the multiplication is displayed.</p>
+            <p> You want to multiply 5 with 3. The equation will look like 5x3=15. For this, first
+                you enter 5. Press multiply button. Then you enter 3. Now press the equals button.
+                The result 15 appears on the screen.</p>
+        </result>
+    </taskbody>
+</task>
