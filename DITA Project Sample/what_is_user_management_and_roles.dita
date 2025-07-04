@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_user_management_and_roles">
+    <title>What is user management and roles</title>
+    <shortdesc>Here you will get information about what is user management and roles in
+        TaskOrbit.</shortdesc>
+    <conbody>
+        <p>User Management &amp; Roles in TaskOrbit is how you control who can see and do what. It
+            lets you invite team members, assign them roles like admin, contributor, or viewer, and
+            tailor permissions to protect sensitive data and streamline collaboration.</p>
+    </conbody>
+</concept>

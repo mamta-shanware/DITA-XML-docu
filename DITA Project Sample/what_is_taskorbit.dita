@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_taskorbit">
+    <title>What is TaskOrbit</title>
+    <shortdesc>Here you will get information about what is TaskOrbit.</shortdesc>
+    <conbody>
+        <p>TaskOrbit is a cloud-based project and task management platform designed to help teams
+            organize their work, collaborate seamlessly, and deliver results faster. Whether you’re
+            managing simple to-do lists or complex projects across multiple teams, TaskOrbit offers
+            flexible tools like task boards, calendars, automations, and integrations — all in one
+            easy-to-use interface.</p>
+    </conbody>
+</concept>

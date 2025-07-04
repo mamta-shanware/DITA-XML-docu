@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_task_management">
+    <title>What is task management</title>
+    <shortdesc>Here you will get information about what is task management in TaskOrbit.</shortdesc>
+    <conbody>
+        <p>Task Management in TaskOrbit is how you create, organize, and track individual work
+            items. It lets you add due dates, assign teammates, set priorities, break work into
+            checklists, and link tasks with dependencies or recurring schedules to keep everything
+            on track.</p>
+    </conbody>
+</concept>

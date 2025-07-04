@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_add_dependencies_and_create_recurring_tasks">
+    <title>How to add dependencies and create recurring tasks</title>
+    <shortdesc>Here you will get instructions about how to add dependencies and create recurring
+        tasks in TaskOrbit.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_cb4_1lk_wfc">To successfully add dependencies and create recurring
+                tasks:<ul id="ul_hdg_cyk_wfc">
+                <li>You must know how to create and manage tasks in TaskOrbit.</li>
+            </ul><ul id="ul_xpz_rxk_wfc">
+                <li>
+                    <p>You must be familiar with task workflows (to set correct dependencies).</p>
+                </li>
+                <li>
+                    <p>You must have permissions to modify task schedules and recurrence
+                        settings.</p>
+                </li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Create multiple tasks that follow a sequence.</cmd>
+            </step>
+            <step>
+                <cmd>In a task, go to <b>Dependencies > Add Dependency</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the task that must be completed first.</cmd>
+            </step>
+            <step>
+                <cmd>For recurring tasks:</cmd>
+                <info>
+                    <ul id="ul_xvd_llk_wfc">
+                        <li>Click task options > <b>Set Recurrence </b></li>
+                        <li>Choose frequency (e.g., every Monday)</li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+        <example id="example_nhf_slk_wfc">
+            <p>For a blog workflow:</p>
+            <ul id="ul_wnx_tlk_wfc">
+                <li>Task A: “Write Draft"</li>
+                <li>Task B: “Review Draft” (Blocked by Task A)</li>
+                <li>Task C: “Publish” (Recurring every Friday)</li>
+            </ul>
+        </example>
+    </taskbody>
+</task>

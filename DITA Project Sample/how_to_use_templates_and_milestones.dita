@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_use_templates_and_milestones">
+    <title>How to use templates and milestones</title>
+    <shortdesc>Here you will get instructions about how to use templates and milestones.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_kyr_g4k_wfc">To successfully use templates and milestones feature :<ul
+                id="ul_zxy_2yk_wfc">
+                <li>You must be logged into the  application and have permission to create new
+                    projects</li>
+                <li>You must have access to create and save templates.</li>
+                <li>Have understanding of project milestones and how they align with the team’s
+                    workflows.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Go to <b>Templates > New Template.</b></cmd>
+            </step>
+            <step>
+                <cmd>Add reusable tasks and columns.</cmd>
+            </step>
+            <step>
+                <cmd>Define <b>milestones</b> to track phases (e.g., Kickoff, Go Live).</cmd>
+            </step>
+            <step>
+                <cmd>Save and reuse the template across similar projects.</cmd>
+            </step>
+        </steps>
+        <example id="example_h34_bpk_wfc">
+            <p>Template: “New Client Onboarding"</p>
+            <ul id="ul_nq1_dpk_wfc">
+                <li>Milestones: Welcome → Setup → Training → Handoff</li>
+                <li>Used every time a new enterprise client is onboarded</li>
+            </ul>
+        </example>
+    </taskbody>
+</task>

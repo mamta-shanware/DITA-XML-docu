@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="whar_are_api_and_developer_tools">
+    <title>What are API and developer tools</title>
+    <shortdesc>Here you will get information about what are API and developer tools in
+        TaskOrbit.</shortdesc>
+    <conbody>
+        <p>The API &amp; Developer Tools in TaskOrbit allow developers to extend the platform. You
+            can use the API to create or update tasks programmatically, set up webhooks to get
+            real-time updates, or build custom apps that integrate TaskOrbit into your broader
+            workflows.</p>
+    </conbody>
+</concept>

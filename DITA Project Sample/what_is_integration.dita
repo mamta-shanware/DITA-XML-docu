@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_integration">
+    <title>What are integrations</title>
+    <shortdesc>Here you will get information about what are integrations in TaskOrbit.</shortdesc>
+    <conbody>
+        <p>Integrations in TaskOrbit let you connect your workspace with other tools like Slack,
+            Google Calendar, GitHub, or Zapier. This keeps your work in sync, reduces manual
+            updates, and ensures everyone stays informed across platforms.</p>
+    </conbody>
+</concept>

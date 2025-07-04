@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_create_custom_roles">
+    <title>How to create custom roles</title>
+    <shortdesc>Here you will get instructions about how to create custom roles.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_ojh_yvk_wfc">To successfully create custom roles:<ul id="ul_dcc_y1l_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Must have admin-level access to create and manage roles and permissions.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Go to <b>Roles > Create New Role.</b></cmd>
+            </step>
+            <step>
+                <cmd>Name the role (e.g., Freelancer).</cmd>
+            </step>
+            <step>
+                <cmd>Set permissions (e.g., view only, no delete access).</cmd>
+            </step>
+            <step>
+                <cmd>Assign role to external users.</cmd>
+            </step>
+        </steps>
+        <example id="example_pq1_gwk_wfc">
+            <p>Freelancers see only their tasks, can't modify others, and can’t view sensitive
+                documents—perfect for working with contractors securely.</p>
+        </example>
+    </taskbody>
+</task>

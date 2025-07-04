@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_use_the_api_to_create_the_task">
+    <title>How to use the API to create the task</title>
+    <shortdesc>Here you will get instructions about how to use the API to create task.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_y1z_mwk_wfc">To successfully use the API to create task:<ul
+                id="ul_i3x_1bl_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Developer access to generate and manage API keys.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Go to <b>Settings > Developer > API Keys.</b></cmd>
+            </step>
+            <step>
+                <cmd>Copy your API key.</cmd>
+            </step>
+            <step>
+                <cmd>Use POST /tasks in tools like Postman to create a task.</cmd>
+            </step>
+        </steps>
+        <example id="example_vv5_gbl_wfc">
+            <p>Your CRM triggers a new task when a deal closes:</p>
+            <ul id="ul_lhn_hbl_wfc">
+                <li>Title: “Send onboarding materials to client"</li>
+                <li>Assigned to: @CustomerSuccess</li>
+            </ul>
+        </example>
+    </taskbody>
+</task>

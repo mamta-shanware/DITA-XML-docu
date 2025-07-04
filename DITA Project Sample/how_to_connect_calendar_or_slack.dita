@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_connect_calendar_or_slack">
+    <title>How to connect Calendar or Slack</title>
+    <shortdesc>Here you will get instructions about how to connect calendar or Slack.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_y4m_tsk_wfc">To successfully connect Google calendar or Slack:<ul
+                id="ul_tq4_11l_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Have credentials for the third-party service (Google/Slack) you want to
+                    connect.</li>
+                <li>Have authorization rights to allow TaskOrbit access.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Go to <b>Settings > Integrations.</b></cmd>
+            </step>
+            <step>
+                <cmd>Select Slack or Google Calendar.</cmd>
+            </step>
+            <step>
+                <cmd>Authorize the integration.</cmd>
+            </step>
+            <step>
+                <cmd>Choose what to sync (e.g., due dates, new assignments).</cmd>
+            </step>
+        </steps>
+        <example id="example_sns_1tk_wfc">
+            <p>Your due tasks appear in Google Calendar, and you get a Slack DM when assigned a new
+                one.</p>
+        </example>
+    </taskbody>
+</task>

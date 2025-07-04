@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_build_custom_rules">
+    <title>How to build custom rules</title>
+    <shortdesc>Here you will get instructions about how to build custom rules.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_hcp_grk_wfc">To successfully build custom rules:<ul id="ul_emh_vzk_wfc">
+                <li>You must be logged into the application.</li>
+                <li>
+                    <p>You must have access to create custom automation rules.</p>
+                </li>
+                <li>
+                    <p>Have a clear idea of the processes to define triggers, conditions, and
+                        actions properly.</p>
+                </li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Click <b>Create New Rule</b> under Automations.</cmd>
+            </step>
+            <step>
+                <cmd>Set:</cmd>
+                <info>
+                    <ul id="ul_a1n_prk_wfc">
+                        <li><b>Trigger:</b> Task moved to “Ready for Review"</li>
+                    </ul>
+                    <ul id="ul_fqm_trk_wfc">
+                        <li><b>Condition:</b> Tag = #marketing</li>
+                        <li><b>Action:</b> Notify @QA and assign checklist</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Save and activate the rule.</cmd>
+            </step>
+        </steps>
+        <example id="example_d1x_dsk_wfc">
+            <p>When a blog is moved to “Ready for Review,” QA is auto-notified and a compliance
+                checklist is added.</p>
+        </example>
+    </taskbody>
+</task>

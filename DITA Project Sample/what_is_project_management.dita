@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_project_management">
+    <title>What is project management</title>
+    <shortdesc>Here you will get information about what is project management in
+        TaskOrbit.</shortdesc>
+    <conbody>
+        <p>Project Management in TaskOrbit is where you structure your team’s work into organized
+            projects. You can build boards, lists, or calendars, define workflow stages, invite your
+            team, and reuse templates or milestones to guide projects from start to finish.</p>
+    </conbody>
+</concept>

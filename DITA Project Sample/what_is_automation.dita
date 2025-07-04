@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_automation">
+    <title>What is automation</title>
+    <shortdesc>Here you will get information about what is automation in TaskOrbit.</shortdesc>
+    <conbody>
+        <p>Automations in TaskOrbit help you eliminate repetitive work. They automatically perform
+            actions—like sending reminders or assigning checklists—based on triggers and rules you
+            define, so your team can focus on what matters most.</p>
+    </conbody>
+</concept>

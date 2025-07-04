@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_are_dashboards_and_reports">
+    <title>What are dashboards and reports</title>
+    <shortdesc>Here you will get information about what are dashboards and reports in
+        TaskOrbit.</shortdesc>
+    <conbody>
+        <p>Dashboards &amp; Reports in TaskOrbit give you a visual overview of team activity, task
+            progress, and project health. You can use built-in dashboards or create custom reports
+            to monitor workloads, spot bottlenecks, and share insights with stakeholders.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_create_a_project_board">
+    <title>How to create a project board</title>
+    <shortdesc>Here you will get instructions about how to create a project board.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_k3y_rmk_wfc">To successfully create a project board:<ul
+                id="ul_njg_vxk_wfc">
+                <li>You must be logged into the application.</li>
+                <li>
+                    <p>You must have permission to create new projects (typically for team leads or
+                        project managers)</p>
+                </li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Click <b>Projects > New Project</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Name your project and choose a view (Board, List, Calendar).</cmd>
+            </step>
+            <step>
+                <cmd>Add workflow stages (columns like “To Do”, “In Progress").</cmd>
+            </step>
+            <step>
+                <cmd>Invite team members and assign roles.</cmd>
+            </step>
+            <step>
+                <cmd>Start adding tasks manually or from a template.</cmd>
+            </step>
+        </steps>
+        <example id="example_cww_2nk_wfc">
+            <p>As a product manager, you create:</p>
+            <ul id="ul_rxv_fnk_wfc">
+                <li><b>Project:</b> “Q3 Product Launch"</li>
+                <li><b>Columns:</b> Planning → Design → Development → QA → Launch</li>
+                <li><b>Team Members:</b> Dev, Design, QA, Marketing</li>
+            </ul>
+        </example>
+    </taskbody>
+</task>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_create_and_manage_tasks">
+    <title>How to create and manage tasks</title>
+    <shortdesc>Here you will get instructions about how to create and manage tasks in
+        TaskOrbit.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_xxr_jhk_wfc">To successfully create and manage tasks in TaskOrbit:<ul
+                id="ul_zzm_zxk_wfc">
+                <li>You must first be logged into the application.</li>
+            </ul><ul id="ul_dv5_1xk_wfc">
+                <li>You must have the appropriate user permissions to create or edit tasks within
+                    the selected project.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Open a project and click <b>“+ New Task”</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter a <b>clear task title</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Add a <b>description</b> with context or links.</cmd>
+            </step>
+            <step>
+                <cmd>Assign a <b>due date</b> and <b>responsible teammate</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Add <b>checklist items</b> for sub-steps.</cmd>
+            </step>
+            <step>
+                <cmd>Attach files or add <b>tags</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Create</b> to save.</cmd>
+            </step>
+        </steps>
+        <example id="example_mmf_33k_wfc">
+            <p>As a marketing coordinator, you create:</p>
+            <ul id="ul_jpb_q3k_wfc">
+                <li>Task: "September newsletter copy"</li>
+                <li>Checklist: Draft → Review → Approve → Schedule</li>
+                <li>Assignee: @Emily</li>
+                <li>Due Date: Sept 5</li>
+                <li>Tag: Urgent</li>
+            </ul>
+        </example>
+    </taskbody>
+</task>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_view_team_activity">
+    <title>How to view team activity</title>
+    <shortdesc>Here you will get instructions about how to view team activity.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_wzm_h5k_wfc">To successfully view team activity:<ul id="ul_rwp_q1l_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Have access rights to view dashboards and project data.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Click <b>Dashboard > My Dashboard.</b></cmd>
+            </step>
+            <step>
+                <cmd>Use default widgets(e.g. "Task due today" , " Overdue tasks").</cmd>
+            </step>
+            <step>
+                <cmd>Filter by user or project.</cmd>
+            </step>
+        </steps>
+        <example id="example_mpw_45k_wfc">
+            <p>During morning standup, you check:</p>
+            <ul id="ul_ztf_q5k_wfc">
+                <li>What's overdue</li>
+                <li>Tasks completed by each team</li>
+            </ul>
+        </example>
+    </taskbody>
+</task>

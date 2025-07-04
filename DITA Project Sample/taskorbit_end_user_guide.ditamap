@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>End User Guide for TaskOrbit Application</title>
+    <topichead navtitle="Overview">
+        <topicref href="what_is_taskorbit.dita"/>
+    </topichead>
+    <topichead navtitle="Task Management">
+        <topicref href="what_is_task_management.dita"/>
+        <topicref href="how_to_create_and_manage_tasks.dita" audience="novice"/>
+        <topicref href="how_to_add_dependencies_and_create_recurring_tasks.dita" audience="expert"/>
+    </topichead>
+    <topichead navtitle="Project Management">
+        <topicref href="what_is_project_management.dita"/>
+        <topicref href="how_to_create_a_project_board.dita" audience="novice"/>
+        <topicref href="how_to_use_templates_and_milestones.dita" audience="expert"/>
+    </topichead>
+    <topichead navtitle="Automations">
+        <topicref href="what_is_automation.dita"/>
+        <topicref href="how_to_enable_prebuilt_rules.dita" audience="novice"/>
+        <topicref href="how_to_build_custom_rules.dita" audience="expert"/>
+    </topichead>
+    <topichead navtitle="Integrations">
+        <topicref href="what_is_integration.dita"/>
+        <topicref href="how_to_connect_calendar_or_slack.dita" audience="novice"/>
+        <topicref href="how_to_use_zappier_or_github.dita" audience="expert"/>
+    </topichead>
+    <topichead navtitle="Dashboards and Reports">
+        <topicref href="what_are_dashboards_and_reports.dita"/>
+        <topicref href="how_to_view_team_activity.dita"/>
+    </topichead>
+    <topichead navtitle="User Management and Roles">
+        <topicref href="what_is_user_management_and_roles.dita"/>
+        <topicref href="how_to_invite_users.dita" audience="novice"/>
+        <topicref href="how_to_create_custom_roles.dita" audience="expert"/>
+    </topichead>
+    <topichead navtitle="API and Developer Tools" audience="expert">
+        <topicref href="whar_are_api_and_developer_tools.dita"/>
+        <topicref href="how_to_use_the_api_to_create_the_task.dita"/>
+    </topichead>
+</map>

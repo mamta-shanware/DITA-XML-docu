@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_enable_prebuilt_rules">
+    <title>How to enable prebuilt rules</title>
+    <shortdesc>Here you will get instructions about how to enable prebuilt rules.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_tch_ppk_wfc">To successfully enable prebuilt rules:<ul
+                id="ul_ry4_rzk_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Have permissions to enable or modify automations for your workspace or
+                    project.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Go to <b>Settings > Automations.</b></cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Add Automation > Use Template.</b></cmd>
+            </step>
+            <step>
+                <cmd>Choose a rule (e.g., notify on overdue task).</cmd>
+            </step>
+            <step>
+                <cmd>Enable the rule.</cmd>
+            </step>
+        </steps>
+        <example id="example_g3p_ypk_wfc">
+            <p>Rule: “Notify assignee when task is overdue.”</p>
+            <p> If assignee forgets a task, he or she gets an email and Slack ping
+                automatically.</p>
+        </example>
+    </taskbody>
+</task>

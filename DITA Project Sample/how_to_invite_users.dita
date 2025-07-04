@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_invite_users">
+    <title>How to invite users</title>
+    <shortdesc>Here you will get instructions about how to invite users.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_tdp_hvk_wfc">To successfully invite users<ul id="ul_wbz_51l_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Have permission to invite new members to the workspace or project.</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>Go to <b>Settings > Members.</b></cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Invite Member.</b></cmd>
+            </step>
+            <step>
+                <cmd>Enter email and choose a role: Admin, Contributor, Viewer.</cmd>
+            </step>
+            <step>
+                <cmd>Send invite.</cmd>
+            </step>
+        </steps>
+        <example id="example_ynf_mvk_wfc">
+            <p>You invite @Ravi from Finance as a Viewer to track task progress during budget
+                planning, without giving edit access.</p>
+        </example>
+    </taskbody>
+</task>

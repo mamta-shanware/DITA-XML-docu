@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_use_zappier_or_github">
+    <title>How to use Zappier or GitHub</title>
+    <shortdesc>Here you will get instructions about how to connect Zappier or GitHub.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_k1q_ltk_wfc">To successfully connect Google calendar or Slack:<ul
+                id="ul_avc_l1l_wfc">
+                <li>You must be logged into the application.</li>
+                <li>Have Zapier or GitHub account with access to needed workflows or repos.</li>
+                <li>Have familiarity with mapping fields and automation steps</li>
+            </ul></prereq>
+        <steps>
+            <step>
+                <cmd>In Zapier, create a Zap.</cmd>
+                <info>
+                    <ul id="ul_tcs_4tk_wfc">
+                        <li><b>Trigger:</b> Form submission.</li>
+                        <li><b>Action:</b> Create a task in TaskOrbit.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Map form fields to task properties.</cmd>
+            </step>
+            <step>
+                <cmd>Activate and test the workflow.</cmd>
+            </step>
+        </steps>
+        <example id="example_occ_ytk_wfc">
+            <p>Every Google Form request creates a new task in the “Client Requests” board,
+                auto-assigned to your onboarding specialist.</p>
+        </example>
+    </taskbody>
+</task>

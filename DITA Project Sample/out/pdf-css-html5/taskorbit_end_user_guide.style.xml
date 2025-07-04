@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop" xmlns:css="http://www.w3.org/1998/CSS"><css:pages><css:page><css:footnote><css:property name="border-top-style" value="solid"/><css:property name="border-top-color" value="black"/><css:property name="border-top-width" value="thin"/><css:property name="padding-top" value="8pt"/></css:footnote></css:page><css:page><css:property name="padding-top" value="0.2em"/><css:property name="padding-bottom" value="0.2em"/><css:property name="width" value="8.5in"/><css:property name="height" value="11.0in"/><css:property name="margin-top" value="1in"/><css:property name="margin-right" value="1in"/><css:property name="margin-left" value="1in"/><css:property name="margin-bottom" value="1in"/></css:page><css:page><css:property name="font-size" value="8pt"/></css:page><css:page><css:property name="font-size" value="10pt"/><css:property name="font-family" value="Roboto , sans-serif"/></css:page><css:page pseudo="left "><css:top-left><css:property name="content"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:property></css:top-left></css:page><css:page pseudo="right "><css:top-right><css:property name="content"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:property></css:top-right></css:page><css:page pseudo="blank "><css:top-left><css:property name="content"/></css:top-left><css:top-right><css:property name="content"/></css:top-right></css:page><css:page name="front-page"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner></css:page><css:page name="table-of-contents"><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right></css:page><css:page name="index"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-left><css:property name="content"/></css:top-left><css:top-right><css:property name="content"/></css:top-right><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:top-center><css:property name="content"/></css:top-center><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner><css:bottom-center><css:property name="content"><css:counter format="lower-alpha" name="page"/></css:property><css:property name="font-size" value="11pt"/></css:bottom-center></css:page><css:page name="index"><css:property name="column-count" value="2"/><css:property name="column-fill" value="auto"/></css:page><css:page name="chapter"/><css:page name="matter-page"><css:top-left-corner><css:property name="content"/></css:top-left-corner><css:top-center><css:property name="content"/></css:top-center><css:top-right-corner><css:property name="content"/></css:top-right-corner><css:bottom-left-corner><css:property name="content"/></css:bottom-left-corner><css:bottom-left><css:property name="content"/></css:bottom-left><css:bottom-center><css:property name="content"/></css:bottom-center><css:bottom-right><css:property name="content"/></css:bottom-right><css:bottom-right-corner><css:property name="content"/></css:bottom-right-corner></css:page><css:page name="portrait-page"><css:property name="orientation" value="portrait"/></css:page><css:page name="table-of-contents" pseudo="left "><css:top-left><css:property name="content"><css:string name="toc-header" position="first"/><css:text> | </css:text><css:counter format="lower-roman" name="page"/></css:property></css:top-left></css:page><css:page name="table-of-contents" pseudo="right "><css:top-right><css:property name="content"><css:string name="toc-header" position="first"/><css:text> | </css:text><css:counter format="lower-roman" name="page"/></css:property></css:top-right></css:page><css:page name="matter-page" pseudo="left "><css:top-left><css:property name="content"><css:counter format="lower-roman" name="page"/></css:property></css:top-left></css:page><css:page name="matter-page" pseudo="right "><css:top-right><css:property name="content"><css:counter format="lower-roman" name="page"/></css:property></css:top-right></css:page><css:page name="landscape-page" pseudo="right "><css:property name="orientation" value="landscape"/><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:right-bottom><css:property name="content"><css:reference-orientation-container-pmb reference-orientation="270"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:reference-orientation-container-pmb></css:property><css:property name="vertical-align" value="middle"/><css:property name="text-align" value="right"/></css:right-bottom></css:page><css:page name="landscape-page" pseudo="left "><css:property name="orientation" value="landscape"/><css:top-left><css:property name="content"/></css:top-left><css:top-center><css:property name="content"/></css:top-center><css:top-right><css:property name="content"/></css:top-right><css:right-top><css:property name="content"><css:reference-orientation-container-pmb reference-orientation="270"><css:string name="maptitle" position="first"/><css:string name="parttitle" position="first"/><css:string name="chaptertitle" position="first"/><css:string name="sectiontitle" position="first"/><css:text> | </css:text><css:counter format="decimal" name="page"/></css:reference-orientation-container-pmb></css:property><css:property name="vertical-align" value="middle"/><css:property name="text-align" value="left"/></css:right-top></css:page><css:page name="table-of-contents" pseudo="first left "><css:top-left><css:property name="content"/></css:top-left></css:page><css:page name="table-of-contents" pseudo="first right "><css:top-right><css:property name="content"/></css:top-right></css:page><css:page name="chapter" pseudo="first left "><css:top-left><css:property name="content"/></css:top-left></css:page><css:page name="chapter" pseudo="first right "><css:top-right><css:property name="content"/></css:top-right></css:page></css:pages><css:page-sequence initial-page-number="1" page="front-page"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap">
+    <head css:border-bottom-color="white" css:border-bottom-style="solid" css:border-bottom-width="1pt" css:border-left-color="white" css:border-left-style="solid" css:border-left-width="1pt" css:border-right-color="white" css:border-right-style="solid" css:border-right-width="1pt" css:border-top-color="white" css:border-top-style="solid" css:border-top-width="1pt" css:display="none" css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em" css:padding-top="1em">
+        <meta content="text/html; charset=UTF-8" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" http-equiv="Content-Type"/>
+        <meta content="(C) Copyright 2025" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+        <meta content="(C) Copyright 2025" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.rights.owner"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.editlink/pdf-css.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.editlink/pdf-css.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css" rel="stylesheet" type="text/css"/>
+        <link css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:link="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" href="file:/C:/Users/mamta/AppData/Local/Oxygen%20XML%20Author%2027/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css" rel="stylesheet" type="text/css"/>
+        <meta content="DITA-OT" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="generator"/>
+        <meta content="map" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+        <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+        <meta content="en" css:background-color="rgb(238 , 238 , 255)" css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid" css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)" css:border-left-style="solid" css:border-left-width="1px" css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid" css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)" css:border-top-style="solid" css:border-top-width="1px" css:display="none" css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px" css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.language"/>
+        <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid" css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none" css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">End User Guide for TaskOrbit Application</title>
+    </head>
+    <body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%">
+        <div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px">
+            <div class="wh_topic_body" css:display="block">
+                <div class="wh_topic_content" css:display="block" css:margin-bottom="80px">
+                    <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en">
+                        <div class="- front-page/front-page front-page" css:display="block"><css:before css:display="block" css:height="0.1px"><css:text/></css:before><div class="- front-page/front-page-title front-page-title" css:display="block" css:font-size="2em" css:font-weight="bold" css:line-height="1.5em" css:margin-top="3in" css:text-align="center">
+                                <div class="- topic/title title" css:bookmark-level="1" css:display="block" css:page-break-after="avoid"><css:string-set name="maptitle"><css:content source="text"/></css:string-set><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><css:oxy-pdf-meta-title><css:content source="text"/></css:oxy-pdf-meta-title>End
+                                    User Guide for TaskOrbit Application</div>
+                            </div></div>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="table-of-contents"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><div class="- toc/toc toc" css:display="block">
+                            <div class="- toc/title title" css:bookmark-level="1" css:display="block" css:font-size="2em" css:margin-bottom="1em" empty="true"><css:string-set name="toc-header"><css:text>Contents</css:text></css:string-set><css:before css:display="inline"><css:text>Contents</css:text></css:before><css:bookmark-label><css:content source="before"/></css:bookmark-label></div>
+                            <div class="- topic/title title" css:display="none" css:page-break-after="avoid">End User Guide for TaskOrbit
+                                Application</div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Overview">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e14" css:text-align-last="justify" href="#d118e14"><css:before css:display="inline" css:link="#d118e14"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="1"/><css:text/><css:text>. </css:text></css:before>Overview<css:after css:display="inline" css:link="#d118e14"><css:leader pattern="."/><css:target-counter url-fragment="d118e14"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_1" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_is_taskorbit">
+                                        <div appid="what_is_taskorbit" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_1" css:text-align-last="justify" href="#unique_1"><css:before css:display="inline" css:link="#unique_1"/>What
+                                            is
+                                            TaskOrbit<css:after css:display="inline" css:link="#unique_1"><css:leader pattern="."/><css:target-counter url-fragment="unique_1"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what is
+                                            TaskOrbit.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Task Management">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e27" css:text-align-last="justify" href="#d118e27"><css:before css:display="inline" css:link="#d118e27"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="2"/><css:text/><css:text>. </css:text></css:before>Task
+                                        Management<css:after css:display="inline" css:link="#d118e27"><css:leader pattern="."/><css:target-counter url-fragment="d118e27"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_2" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_is_task_management">
+                                        <div appid="what_is_task_management" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_2" css:text-align-last="justify" href="#unique_2"><css:before css:display="inline" css:link="#unique_2"/>What
+                                            is task
+                                            management<css:after css:display="inline" css:link="#unique_2"><css:leader pattern="."/><css:target-counter url-fragment="unique_2"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what is task
+                                            management in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                                <div audience="novice" class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_3" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_create_and_manage_tasks">
+                                        <div appid="how_to_create_and_manage_tasks" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_3" css:text-align-last="justify" href="#unique_3"><css:before css:display="inline" css:link="#unique_3"/>How
+                                            to create and manage
+                                            tasks<css:after css:display="inline" css:link="#unique_3"><css:leader pattern="."/><css:target-counter url-fragment="unique_3"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get instructions about how to create and
+                                            manage tasks in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Project Management">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e51" css:text-align-last="justify" href="#d118e51"><css:before css:display="inline" css:link="#d118e51"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="3"/><css:text/><css:text>. </css:text></css:before>Project
+                                        Management<css:after css:display="inline" css:link="#d118e51"><css:leader pattern="."/><css:target-counter url-fragment="d118e51"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_4" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_is_project_management">
+                                        <div appid="what_is_project_management" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_4" css:text-align-last="justify" href="#unique_4"><css:before css:display="inline" css:link="#unique_4"/>What
+                                            is project
+                                            management<css:after css:display="inline" css:link="#unique_4"><css:leader pattern="."/><css:target-counter url-fragment="unique_4"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what is project
+                                            management in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                                <div audience="novice" class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_5" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_create_a_project_board">
+                                        <div appid="how_to_create_a_project_board" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_5" css:text-align-last="justify" href="#unique_5"><css:before css:display="inline" css:link="#unique_5"/>How
+                                            to create a project
+                                            board<css:after css:display="inline" css:link="#unique_5"><css:leader pattern="."/><css:target-counter url-fragment="unique_5"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get instructions about how to create a
+                                            project board.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Automations">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e75" css:text-align-last="justify" href="#d118e75"><css:before css:display="inline" css:link="#d118e75"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="4"/><css:text/><css:text>. </css:text></css:before>Automations<css:after css:display="inline" css:link="#d118e75"><css:leader pattern="."/><css:target-counter url-fragment="d118e75"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_6" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_is_automation">
+                                        <div appid="what_is_automation" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_6" css:text-align-last="justify" href="#unique_6"><css:before css:display="inline" css:link="#unique_6"/>What
+                                            is
+                                            automation<css:after css:display="inline" css:link="#unique_6"><css:leader pattern="."/><css:target-counter url-fragment="unique_6"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what is automation
+                                            in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                                <div audience="novice" class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_7" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_enable_prebuilt_rules">
+                                        <div appid="how_to_enable_prebuilt_rules" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_7" css:text-align-last="justify" href="#unique_7"><css:before css:display="inline" css:link="#unique_7"/>How
+                                            to enable prebuilt
+                                            rules<css:after css:display="inline" css:link="#unique_7"><css:leader pattern="."/><css:target-counter url-fragment="unique_7"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get instructions about how to enable
+                                            prebuilt rules.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Integrations">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e100" css:text-align-last="justify" href="#d118e100"><css:before css:display="inline" css:link="#d118e100"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="5"/><css:text/><css:text>. </css:text></css:before>Integrations<css:after css:display="inline" css:link="#d118e100"><css:leader pattern="."/><css:target-counter url-fragment="d118e100"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_8" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_is_integration">
+                                        <div appid="what_is_integration" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_8" css:text-align-last="justify" href="#unique_8"><css:before css:display="inline" css:link="#unique_8"/>What
+                                            are
+                                            integrations<css:after css:display="inline" css:link="#unique_8"><css:leader pattern="."/><css:target-counter url-fragment="unique_8"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what are
+                                            integrations in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                                <div audience="novice" class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_9" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_connect_calendar_or_slack">
+                                        <div appid="how_to_connect_calendar_or_slack" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_9" css:text-align-last="justify" href="#unique_9"><css:before css:display="inline" css:link="#unique_9"/>How
+                                            to connect Calendar or
+                                            Slack<css:after css:display="inline" css:link="#unique_9"><css:leader pattern="."/><css:target-counter url-fragment="unique_9"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get instructions about how to connect
+                                            calendar or Slack.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="Dashboards and Reports">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e124" css:text-align-last="justify" href="#d118e124"><css:before css:display="inline" css:link="#d118e124"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="6"/><css:text/><css:text>. </css:text></css:before>Dashboards
+                                        and
+                                        Reports<css:after css:display="inline" css:link="#d118e124"><css:leader pattern="."/><css:target-counter url-fragment="d118e124"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_10" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_are_dashboards_and_reports">
+                                        <div appid="what_are_dashboards_and_reports" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_10" css:text-align-last="justify" href="#unique_10"><css:before css:display="inline" css:link="#unique_10"/>What
+                                            are dashboards and
+                                            reports<css:after css:display="inline" css:link="#unique_10"><css:leader pattern="."/><css:target-counter url-fragment="unique_10"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what are dashboards
+                                            and reports in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_11" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_view_team_activity">
+                                        <div appid="how_to_view_team_activity" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_11" css:text-align-last="justify" href="#unique_11"><css:before css:display="inline" css:link="#unique_11"/>How
+                                            to view team
+                                            activity<css:after css:display="inline" css:link="#unique_11"><css:leader pattern="."/><css:target-counter url-fragment="unique_11"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get instructions about how to view team
+                                            activity.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="+ map/topicref mapgroup-d/topichead topicref topichead" css:display="block" css:font-weight="bold" css:margin-bottom="0.5em" css:margin-left="0" css:margin-top="0.5em" is-chapter="true" navtitle="User Management and Roles">
+                                <div class="- map/topicmeta topicmeta" css:display="block">
+                                    <div class="- topic/navtitle navtitle" css:display="block" css:link="#d118e148" css:text-align-last="justify" href="#d118e148"><css:before css:display="inline" css:link="#d118e148"><css:text>Chapter </css:text><css:counter name="toc-chapter" value="7"/><css:text/><css:text>. </css:text></css:before>User
+                                        Management and
+                                        Roles<css:after css:display="inline" css:link="#d118e148"><css:leader pattern="."/><css:target-counter url-fragment="d118e148"/></css:after></div>
+                                </div>
+                                <div class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_12" type="concept">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="what_is_user_management_and_roles">
+                                        <div appid="what_is_user_management_and_roles" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_12" css:text-align-last="justify" href="#unique_12"><css:before css:display="inline" css:link="#unique_12"/>What
+                                            is user management and
+                                            roles<css:after css:display="inline" css:link="#unique_12"><css:leader pattern="."/><css:target-counter url-fragment="unique_12"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get information about what is user
+                                            management and roles in TaskOrbit.</div>
+                                    </div>
+                                </div>
+                                <div audience="novice" class="- map/topicref topicref" css:display="block" css:font-weight="normal" css:margin-bottom="0.5em" css:margin-left="2em" css:margin-top="0.5em" href="#unique_13" type="task">
+                                    <div class="- map/topicmeta topicmeta" css:display="block" data-topic-id="how_to_invite_users">
+                                        <div appid="how_to_invite_users" class="- topic/resourceid resourceid" css:display="none" oxy-source="topic"/>
+                                        <div class="- topic/navtitle navtitle" css:display="block" css:link="#unique_13" css:text-align-last="justify" href="#unique_13"><css:before css:display="inline" css:link="#unique_13"/>How
+                                            to invite
+                                            users<css:after css:display="inline" css:link="#unique_13"><css:leader pattern="."/><css:target-counter url-fragment="unique_13"/></css:after></div>
+                                        <div class="- map/shortdesc shortdesc" css:display="none">Here you will get instructions about how to invite
+                                            users.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title1" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e14" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title1"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="1"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="1"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="1"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Overview</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title2" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_1" nd:nd-id="what_is_taskorbit" oid="what_is_taskorbit" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title2"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What is TaskOrbit</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what is TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">TaskOrbit is a
+                                        cloud-based project and task management platform designed to
+                                        help teams organize their work, collaborate seamlessly, and
+                                        deliver results faster. Whether you’re managing simple to-do
+                                        lists or complex projects across multiple teams, TaskOrbit
+                                        offers flexible tools like task boards, calendars,
+                                        automations, and integrations — all in one easy-to-use
+                                        interface.</p>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title3" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e27" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title3"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="2"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="2"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="2"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Task Management</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title4" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_2" nd:nd-id="what_is_task_management" oid="what_is_task_management" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title4"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What is task management</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what is task management in
+                                        TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Task Management in
+                                        TaskOrbit is how you create, organize, and track individual
+                                        work items. It lets you add due dates, assign teammates, set
+                                        priorities, break work into checklists, and link tasks with
+                                        dependencies or recurring schedules to keep everything on
+                                        track.</p>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title5" audience="novice" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_3" nd:nd-id="how_to_create_and_manage_tasks" oid="how_to_create_and_manage_tasks" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title5"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">How to create and manage
+                                    tasks</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get instructions about how to create and manage tasks in
+                                        TaskOrbit.</p>
+                                    <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_3_Connect_42_prereq_xxr_jhk_wfc" nd:nd-id="prereq_xxr_jhk_wfc">To successfully create and
+                                        manage tasks in TaskOrbit:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_3_Connect_42_ul_zzm_zxk_wfc" nd:nd-id="ul_zzm_zxk_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must first be logged into the application.</li>
+                                        </ul><ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_3_Connect_42_ul_dv5_1xk_wfc" nd:nd-id="ul_dv5_1xk_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must have the appropriate user permissions to create
+                                                or edit tasks within the selected project.</li>
+                                        </ul></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Open a project and click
+                                                  <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">“+ New
+                                                  Task”</strong>.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Enter a <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">clear
+                                                  task title</strong>.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Add a <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">description</strong> with context or
+                                                  links.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Assign a <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">due
+                                                  date</strong> and <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">responsible teammate</strong>.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Add <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">checklist items</strong> for sub-steps.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Attach files or add <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">tags</strong>.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Create</strong> to save.</span>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    <section class="- topic/example example" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_3_Connect_42_example_mmf_33k_wfc" nd:nd-id="example_mmf_33k_wfc">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">As a marketing
+                                            coordinator, you create:</p>
+                                        <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_3_Connect_42_ul_jpb_q3k_wfc" nd:nd-id="ul_jpb_q3k_wfc">
+                                            <li class="- topic/li li" css:display="list-item">Task:
+                                                "September newsletter copy"</li>
+                                            <li class="- topic/li li" css:display="list-item">Checklist: Draft → Review → Approve → Schedule</li>
+                                            <li class="- topic/li li" css:display="list-item">Assignee: @Emily</li>
+                                            <li class="- topic/li li" css:display="list-item">Due
+                                                Date: Sept 5</li>
+                                            <li class="- topic/li li" css:display="list-item">Tag:
+                                                Urgent</li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title6" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e51" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title6"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="3"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="3"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="3"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Project Management</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title7" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_4" nd:nd-id="what_is_project_management" oid="what_is_project_management" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title7"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What is project management</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what is project management in
+                                        TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Project Management
+                                        in TaskOrbit is where you structure your team’s work into
+                                        organized projects. You can build boards, lists, or
+                                        calendars, define workflow stages, invite your team, and
+                                        reuse templates or milestones to guide projects from start
+                                        to finish.</p>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title8" audience="novice" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_5" nd:nd-id="how_to_create_a_project_board" oid="how_to_create_a_project_board" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title8"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">How to create a project
+                                    board</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get instructions about how to create a project board.</p>
+                                    <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_5_Connect_42_prereq_k3y_rmk_wfc" nd:nd-id="prereq_k3y_rmk_wfc">To successfully create a project
+                                            board:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_5_Connect_42_ul_njg_vxk_wfc" nd:nd-id="ul_njg_vxk_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must be logged into the application.</li>
+                                            <li class="- topic/li li" css:display="list-item">
+                                                <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">You must
+                                                  have permission to create new projects (typically
+                                                  for team leads or project managers)</p>
+                                            </li>
+                                        </ul></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Projects &gt; New Project</strong>.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Name your project and choose
+                                                  a view (Board, List, Calendar).</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Add workflow stages (columns
+                                                  like “To Do”, “In Progress").</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Invite team members and
+                                                  assign roles.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Start adding tasks manually
+                                                  or from a template.</span>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    <section class="- topic/example example" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_5_Connect_42_example_cww_2nk_wfc" nd:nd-id="example_cww_2nk_wfc">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">As a product
+                                            manager, you create:</p>
+                                        <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_5_Connect_42_ul_rxv_fnk_wfc" nd:nd-id="ul_rxv_fnk_wfc">
+                                            <li class="- topic/li li" css:display="list-item"><strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Project:</strong> “Q3 Product Launch"</li>
+                                            <li class="- topic/li li" css:display="list-item"><strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Columns:</strong> Planning → Design → Development
+                                                → QA → Launch</li>
+                                            <li class="- topic/li li" css:display="list-item"><strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Team
+                                                  Members:</strong> Dev, Design, QA, Marketing</li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title9" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e75" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title9"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="4"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="4"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Automations</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title10" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_6" nd:nd-id="what_is_automation" oid="what_is_automation" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title10"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What is automation</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what is automation in TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Automations in
+                                        TaskOrbit help you eliminate repetitive work. They
+                                        automatically perform actions—like sending reminders or
+                                        assigning checklists—based on triggers and rules you define,
+                                        so your team can focus on what matters most.</p>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title11" audience="novice" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_7" nd:nd-id="how_to_enable_prebuilt_rules" oid="how_to_enable_prebuilt_rules" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title11"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">How to enable prebuilt
+                                    rules</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get instructions about how to enable prebuilt rules.</p>
+                                    <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_7_Connect_42_prereq_tch_ppk_wfc" nd:nd-id="prereq_tch_ppk_wfc">To successfully enable prebuilt
+                                            rules:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_7_Connect_42_ul_ry4_rzk_wfc" nd:nd-id="ul_ry4_rzk_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must be logged into the application.</li>
+                                            <li class="- topic/li li" css:display="list-item">Have
+                                                permissions to enable or modify automations for your
+                                                workspace or project.</li>
+                                        </ul></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Go to <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Settings &gt; Automations.</strong></span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Add
+                                                  Automation &gt; Use Template.</strong></span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Choose a rule (e.g., notify
+                                                  on overdue task).</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Enable the rule.</span>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    <section class="- topic/example example" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_7_Connect_42_example_g3p_ypk_wfc" nd:nd-id="example_g3p_ypk_wfc">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Rule: “Notify
+                                            assignee when task is overdue.”</p>
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em"> If assignee
+                                            forgets a task, he or she gets an email and Slack ping
+                                            automatically.</p>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title12" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e100" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title12"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="5"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="5"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Integrations</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title13" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_8" nd:nd-id="what_is_integration" oid="what_is_integration" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title13"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What are integrations</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what are integrations in
+                                        TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Integrations in
+                                        TaskOrbit let you connect your workspace with other tools
+                                        like Slack, Google Calendar, GitHub, or Zapier. This keeps
+                                        your work in sync, reduces manual updates, and ensures
+                                        everyone stays informed across platforms.</p>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title14" audience="novice" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_9" nd:nd-id="how_to_connect_calendar_or_slack" oid="how_to_connect_calendar_or_slack" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title14"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">How to connect Calendar or
+                                    Slack</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get instructions about how to connect calendar or Slack.</p>
+                                    <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_9_Connect_42_prereq_y4m_tsk_wfc" nd:nd-id="prereq_y4m_tsk_wfc">To successfully connect Google
+                                        calendar or Slack:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_9_Connect_42_ul_tq4_11l_wfc" nd:nd-id="ul_tq4_11l_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must be logged into the application.</li>
+                                            <li class="- topic/li li" css:display="list-item">Have
+                                                credentials for the third-party service
+                                                (Google/Slack) you want to connect.</li>
+                                            <li class="- topic/li li" css:display="list-item">Have
+                                                authorization rights to allow TaskOrbit access.</li>
+                                        </ul></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Go to <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Settings &gt; Integrations.</strong></span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Select Slack or Google
+                                                  Calendar.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Authorize the
+                                                  integration.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Choose what to sync (e.g.,
+                                                  due dates, new assignments).</span>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    <section class="- topic/example example" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_9_Connect_42_example_sns_1tk_wfc" nd:nd-id="example_sns_1tk_wfc">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Your due tasks
+                                            appear in Google Calendar, and you get a Slack DM when
+                                            assigned a new one.</p>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title15" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e124" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title15"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="6"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="6"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="6"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">Dashboards and Reports</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title16" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_10" nd:nd-id="what_are_dashboards_and_reports" oid="what_are_dashboards_and_reports" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title16"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What are dashboards and
+                                    reports</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what are dashboards and reports in
+                                        TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">Dashboards &amp;
+                                        Reports in TaskOrbit give you a visual overview of team
+                                        activity, task progress, and project health. You can use
+                                        built-in dashboards or create custom reports to monitor
+                                        workloads, spot bottlenecks, and share insights with
+                                        stakeholders.</p>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title17" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_11" nd:nd-id="how_to_view_team_activity" oid="how_to_view_team_activity" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title17"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">How to view team activity</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get instructions about how to view team activity.</p>
+                                    <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_11_Connect_42_prereq_wzm_h5k_wfc" nd:nd-id="prereq_wzm_h5k_wfc">To successfully view team
+                                            activity:<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_11_Connect_42_ul_rwp_q1l_wfc" nd:nd-id="ul_rwp_q1l_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must be logged into the application.</li>
+                                            <li class="- topic/li li" css:display="list-item">Have
+                                                access rights to view dashboards and project
+                                                data.</li>
+                                        </ul></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Dashboard &gt; My Dashboard.</strong></span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Use default widgets(e.g.
+                                                  "Task due today" , " Overdue tasks").</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Filter by user or
+                                                  project.</span>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    <section class="- topic/example example" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_11_Connect_42_example_mpw_45k_wfc" nd:nd-id="example_mpw_45k_wfc">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">During morning
+                                            standup, you check:</p>
+                                        <ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_11_Connect_42_ul_ztf_q5k_wfc" nd:nd-id="ul_ztf_q5k_wfc">
+                                            <li class="- topic/li li" css:display="list-item">What's
+                                                overdue</li>
+                                            <li class="- topic/li li" css:display="list-item">Tasks
+                                                completed by each team</li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                        </div></div></div></div></body></html></css:page-sequence><css:page-sequence xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" page="chapter"><html css:counter-reset=" page 1" css:display="block" css:font-family="serif" css:font-size="12px" css:min-width="100%" lang="en" xtrf="file:/C:/Users/mamta/OneDrive/Desktop/DITA%20Project%20Sample/taskorbit_end_user_guide.ditamap"><body class="wh_topic_page" css:display="block" css:font-family="Roboto, sans-serif" css:font-size="10pt" css:margin-left="auto" css:margin-right="auto" css:min-width="100%"><div class="wh_content_area" css:color="rgb(0 , 0 , 0)" css:display="block" css:line-height="1.7em" css:margin-bottom="80px"><div class="wh_topic_body" css:display="block"><div class="wh_topic_content" css:display="block" css:margin-bottom="80px"><div cascade="merge" class="- map/map map" css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0" css:display="block" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" lang="en" specializations="@props/deliveryTarget" xml:lang="en"><article aria-labelledby="ariaid-title18" break-before="true" class="+ topic/topic pdf2-d/placeholder topic placeholder nested0" css:display="block" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="d118e148" is-chapter="true" topicrefclass="+ map/topicref mapgroup-d/topichead ">
+                            <h1 class="- topic/title title topictitle1" css:bookmark-level="1" css:display="block" css:font-size="2em" css:line-height="1.1em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0" css:oxy-pdf-tag-type="H1" css:page-break-after="avoid" id="ariaid-title18"><css:string-set name="chaptertitle-only"><css:text> </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle-no-prefix"><css:text> </css:text><css:counter name="chapter" value="7"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:string-set name="chaptertitle"><css:text> | </css:text><css:counter name="chapter" value="7"/><css:text> - </css:text><css:content source="text"/></css:string-set><css:before css:display="inline"><css:text>Chapter </css:text><css:counter name="chapter" value="7"/><css:text/><css:text>. </css:text></css:before><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">User Management and Roles</span></h1>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title19" class="- topic/topic concept/concept topic concept nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_12" nd:nd-id="what_is_user_management_and_roles" oid="what_is_user_management_and_roles" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title19"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">What is user management and
+                                        roles</span></h2>
+                                <div class="- topic/body concept/conbody body conbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get information about what is user management and roles in
+                                        TaskOrbit.</p>
+                                    <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">User Management
+                                        &amp; Roles in TaskOrbit is how you control who can see and
+                                        do what. It lets you invite team members, assign them roles
+                                        like admin, contributor, or viewer, and tailor permissions
+                                        to protect sensitive data and streamline collaboration.</p>
+                                </div>
+                            </article>
+                            <article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" aria-labelledby="ariaid-title20" audience="novice" class="- topic/topic task/task topic task nested1" css:display="block" css:oxy-pdf-tag-type="Sect" id="unique_13" nd:nd-id="how_to_invite_users" oid="how_to_invite_users" specializations="@props/deliveryTarget" topicrefclass="- map/topicref ">
+                                <h2 class="- topic/title title topictitle2" css:bookmark-level="2" css:bookmark-state="closed" css:display="block" css:font-size="1.7em" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em" css:oxy-pdf-tag-type="H2" css:page-break-after="avoid" id="ariaid-title20"><css:bookmark-label><css:content source="before"/><css:content source="text"/></css:bookmark-label><span class="- topic/ph topic/title-wrapper ph title-wrapper" css:display="inline">How to invite users</span></h2>
+                                <div class="- topic/body task/taskbody body taskbody" css:display="block" css:margin-bottom="0" css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                    <p class="- topic/shortdesc shortdesc" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">Here you will
+                                        get instructions about how to invite users.</p>
+                                    <section class="- topic/section task/prereq section prereq" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_13_Connect_42_prereq_tdp_hvk_wfc" nd:nd-id="prereq_tdp_hvk_wfc">To successfully invite users<ul class="- topic/ul ul" css:display="block" css:list-style-type="disc" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px" id="unique_13_Connect_42_ul_wbz_51l_wfc" nd:nd-id="ul_wbz_51l_wfc">
+                                            <li class="- topic/li li" css:display="list-item">You
+                                                must be logged into the application.</li>
+                                            <li class="- topic/li li" css:display="list-item">Have
+                                                permission to invite new members to the workspace or
+                                                project.</li>
+                                        </ul></section>
+                                    <section class="- topic/ol task/steps ol steps" css:display="block" css:oxy-pdf-tag-type="Sect">
+                                        <ol class="- topic/ol task/steps ol steps" css:display="block" css:list-style-type="decimal" css:margin-bottom="1.33em" css:margin-top="1.33em" css:padding-left="40px">
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Go to <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Settings &gt; Members.</strong></span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Click <strong class="+ topic/ph hi-d/b ph b" css:display="inline" css:font-weight="bold">Invite
+                                                  Member.</strong></span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Enter email and choose a
+                                                  role: Admin, Contributor, Viewer.</span>
+                                            </li>
+                                            <li class="- topic/li task/step li step" css:display="list-item">
+                                                <span class="- topic/ph task/cmd ph cmd" css:display="inline">Send invite.</span>
+                                            </li>
+                                        </ol>
+                                    </section>
+                                    <section class="- topic/example example" css:display="block" css:margin-bottom="1em" css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_13_Connect_42_example_ynf_mvk_wfc" nd:nd-id="example_ynf_mvk_wfc">
+                                        <p class="- topic/p p" css:display="block" css:margin-bottom="0.5em" css:margin-left="0" css:margin-right="0" css:margin-top="1em">You invite
+                                            @Ravi from Finance as a Viewer to track task progress
+                                            during budget planning, without giving edit access.</p>
+                                    </section>
+                                </div>
+                            </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html></css:page-sequence></css:root>
